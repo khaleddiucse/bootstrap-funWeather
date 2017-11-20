@@ -1,0 +1,254 @@
+#header{
+    background: url(../images/main_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    
+}
+.logo_menu{
+    padding-top: 10px;
+}
+.header_logo{}
+.logo{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    margin-top: 18px;
+}
+.menu{
+     background-color: transparent;
+    border: none;
+}
+.menu_nav ul li a{
+     color: white;
+}
+
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    padding: 17px 25px;
+}
+.menu_nav ul li a {
+    color: white;
+    padding: 20px;
+}
+.slider_content{
+    margin-top: 30px;
+}
+.slider_mobile{
+    width: 75%;
+    height: 450px;
+}
+.heading{
+    font-weight: bold;
+    margin-top: 100px;
+    color: white;
+    font-size: 30px;
+}
+.descrive{
+    color: white;
+    margin-top: 20px;
+}
+.df_form{
+    margin-top: 50px;
+}
+.download{
+    background-color: #FC6A42;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    font-weight: bold;
+    
+}
+.features{
+    background-color: #4466C9;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+.slider_img{
+    margin-top: 50px;
+}
+.feature_heading{
+    font-weight: bold;
+    color: #9EB4FF;
+    margin-top: 30px;
+}
+.f_descrive{
+    color: #CDCDCD;
+}
+.perfect_feature{
+    margin-top: 20px;
+}
+
+.f_icon{
+    width: 14%;
+    margin: 5px 10px;
+    font-weight: bold; 
+}
+.features_comment{
+    margin-left: 60px;
+    font-size: 13px;
+    color: #EEEEEE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-control     		 { width: 10%; }
+.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+@media (max-width: 767px) {
+	.carousel-inner .active.left { left: -100%; }
+	.carousel-inner .next        { left:  100%; }
+	.carousel-inner .prev		 { left: -100%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+
+}
+@media (min-width: 767px) and (max-width: 992px ) {
+	.carousel-inner .active.left { left: -50%; }
+	.carousel-inner .next        { left:  50%; }
+	.carousel-inner .prev		 { left: -50%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+	.active > div:first-child + div { display:block; }
+}
+@media (min-width: 992px ) {
+	.carousel-inner .active.left { left: -16.7%; }
+	.carousel-inner .next        { left:  16.7%; }
+	.carousel-inner .prev		 { left: -16.7%; }	
+}
+.icon-next {
+    margin-right: 130px;
+}
+.icon-prev {
+    margin-left: -117px;
+}
+.widgets{
+    width: 25%;
+    margin: 10px;
+    transition: 1s;
+}
+.widgets:hover{
+    transform: scale(1.1);
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: 120px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -93px;
+}
+.mobile_row{
+    margin-top: 30px;
+}
+.mobile_content{
+    margin-top: 50px;
+}
+.people_say{
+    margin-top: 20px;
+}
+.comaleft{
+    width: 5%;
+}
+.comaright{
+    width: 5%;
+    float: right;
+}
+.people_comment{
+    font-size: 13px;
+    color: #A1A2AC;
+}
+#app{
+    background: url(../images/background3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    min-height: 200px;
+}
+.app_content{
+    margin-top: 70px;
+    color: white;
+    font-weight: bold;
+}
+.app_descrive{
+    margin-top: 30px;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+}
+form{
+    margin: 40px 0;
+}
+.apple{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    margin: 1px
+}
+.g_play{
+      width: 100%;
+    background-color: transparent;
+    border: none;
+    margin: 1px
+}
+#footer{
+    background-color: #353854;
+    padding-top: 40px;
+}
+.color_logo{color: red;
+font-weight: bold;
+}
+span{
+   color: #4D65B1; 
+}
+.menu{
+    margin-top: 10px;
+}
+a {
+    color: #bfc7ce;
+    text-decoration: none;
+    padding: 20px;
+    transition: 3s;
+}
+a:hover{
+    font-weight: bold;
+    color: white;
+    text-decoration: none
+}
+.copyright{
+    color: gray;
+    margin-top: 20px;
+}
+.border{
+    border-bottom: 2px solid gray;
+    margin-bottom: 10px;
+}
