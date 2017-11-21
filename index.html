@@ -13,15 +13,15 @@
 <body>
     
     <header id="header">
-        <div class="container-fluid">
+        <div class="container-fluid ">
             <div class="row logo_menu">
-                <div class="col-md-2 col-md-offset-1">
+                <div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-6 col-xs-offset-1">
                     <div class="header_logo">
-                       <h4 class="logo"> FUN WEATHER</h4>
+                       <h4 class="logo">FUN WEATHER</h4>
                     </div>
                 </div>
-                <div class="col-md-8">
-                    <div class="">
+                <div class="col-md-8 col-sm-8 col-xs-4 ">
+                    <div class="row">
                         <nav class="navbar navbar-default menu" role="navigation">
                             <!-- Brand and toggle get grouped for better mobile display -->
                             <div class="navbar-header">
@@ -36,10 +36,10 @@
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse navbar-ex1-collapse menu_nav">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="#">HOME</a></li>
-                                    <li><a href="#">FEATURES</a></li>
-                                    <li><a href="#">REVIEWS</a></li>
-                                    <li><a href="#">DOWNLOAD</a></li>
+                                    <li><a href="#home">HOME</a></li>
+                                    <li><a href="#features">FEATURES</a></li>
+                                    <li><a href="#screenshots">REVIEWS</a></li>
+                                    <li><a href="#app">DOWNLOAD</a></li>
                                     
                                 </ul>
                                 <ul class="nav navbar-nav navbar-right">
@@ -54,9 +54,14 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </header>
+    
+    <section id="home">
+        <div class="container-fluid">
             <div class="row slider_content">
                <div class="row">
-                   <div class="col-md-3 col-md-offset-3 ">
+                   <div class="col-md-3 col-md-offset-3 col-xs-6 col-xs-offset-1">
                    <h3 class="heading">Get the most fun weather app</h3>
                    <p class="descrive">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, architecto!</p>
                    <form action="" class="df_form">
@@ -64,13 +69,13 @@
                        <button type="submit" class="features">Features</button>
                    </form>
                </div> 
-               <div class="col-md-3">
+               <div class="col-md-3 col-xs-4">
                    <img src="images/mobile_slider.png" alt="" class="img-responsive slider_mobile">
                </div>
                </div> 
             </div>
         </div>
-    </header>
+    </section>
     
     <section id="features">
         <div class="container-fluid">
@@ -81,7 +86,7 @@
                 </div>
             </div>
             <div class="row perfect_feature">
-                <div class="col-md-3 col-md-offset-2">
+                <div class="col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-1">
                     <div class="features_content">
                         <h4 class="icon"><img src="images/icon1.png" alt="" class="f_icon">Usability</h4>
                     </div>
@@ -89,7 +94,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quidem, voluptates vel voluptatibus molestiae quibusdam!</p>
                     </div> 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-3">
                     <div class="features_content">
                         <h4 class="icon"><img src="images/icon2.png" alt="" class="f_icon">Usability</h4>
                     </div>
@@ -97,7 +102,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quidem, voluptates vel voluptatibus molestiae quibusdam!</p>
                     </div> 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-3">
                     <div class="features_content">
                         <h4 class="icon"><img src="images/icon3.png" alt="" class="f_icon">Usability</h4>
                     </div>
@@ -118,23 +123,25 @@
                     <div class="slider_snowboards">
                         <h3 class="feature_heading">SIMPLE WIDGETS</h3>
                     <P class="f_descrive">only necessary</P>
-                        <img src="images/cross.png" alt="">
+                        <img src="images/cross.png" alt="" class="img-responsive">
                     </div>
                  </div>
-                    <div class="col-md-10 col-md-offset-2">
+                    <div class="col-md-10 col-md-offset-2 col-xs-10 col-xs-offset-1">
                     <div class="carousel slide" data-ride="carousel" data-type="multi" data-interval="3000" id="myCarousel">
                       <div class="carousel-inner">
 
                         <div class="item active">
-                          <div class="col-md-2 col-md-offset-1 widgets"><a href="#"><img src="images/imgleft.png" class="img-responsive"></a></div>
-                          <div class="col-sm-2 col-sm-offset-1 widgets"><a href="#"><img src="images/imgcenter.png" class="img-responsive"></a></div>
-                          <div class="col-sm-2 col-sm-offset-1 widgets"><a href="#"><img src="images/imgright.png" class="img-responsive"></a></div>
+                          <div class="visible-lg visible-sm visible-md visible-xs col-md-2 col-md-offset-1 col-xs-2  col-xs-offset-1 widgets"><a href="#"><img src="images/imgleft.png" class="img-responsive slider_img"></a></div>
+                          <div class="visible-lg visible-sm col-md-2 col-md-offset-1 col-xs-1 col-xs-offset-1 visible-xs visible-md  widgets"><a href="#"><img src="images/imgcenter.png" class="img-responsive slider_img"></a></div>
+                          <div class="visible-lg visible-sm col-md-2 col-md-offset-1 col-xs-1 
+                          col-xs-offset-1 visible-xs visible-md widgets"><a href="#"><img src="images/imgright.png" class="img-responsive slider_img"></a></div>
                         </div>
 
                         <div class="item">
-                          <div class="col-md-2 col-md-offset-1 widgets"><a href="#"><img src="images/imgcenter.png" class="img-responsive"></a></div>
-                          <div class="col-sm-2 col-sm-offset-1 widgets"><a href="#"><img src="images/imgright.png" class="img-responsive"></a></div>
-                          <div class="col-sm-2 col-sm-offset-1 widgets"><a href="#"><img src="images/imgleft.png" class="img-responsive"></a></div>
+                          <div class="visible-lg visible-xs visible-sm visible-md col-md-2 col-md-offset-1 col-xs-2  col-xs-offset-2 widgets"><a href="#"><img src="images/imgcenter.png" class="img-responsive slider_img"></a></div>
+                          <div class="visible-lg col-md-2 col-md-offset-1 visible-md visible-sm col-xs-1 col-xs-offset-1 visible-xs widgets"><a href="#"><img src="images/imgright.png" class="img-responsive slider_img"></a></div>
+                          <div class="visible-lg visible-xs col-md-2 col-md-offset-1 visible-md visible-sm  col-xs-1 
+                          col-xs-offset-1 visible-xs widgets"><a href="#"><img src="images/imgleft.png" class="img-responsive slider_img"></a></div>
                         </div>
 
                       </div>
@@ -157,36 +164,36 @@
                     </div>
                  </div>
            <div class="row">
-               <div class="col-md-2 col-md-offset-3 mobile_row">
+               <div class="col-md-2 col-md-offset-3 col-xs-4 col-xs-offset-2 mobile_row">
                    <img src="images/mobile1.png" alt="" class="img-responsive">
                </div>
-               <div class="col-md-3 col-md-offset-1 mobile_content">
-                   <img src="images/icon4.png" alt="" class="img-responsive">
+               <div class="col-md-3 col-md-offset-1 col-xs-4 mobile_content">
+                   <img src="images/icon4.png" alt="" class="img-responsive icon">
                    <h3 class="feature_heading">SCREENSHOTS</h3>
                     <P class="f_descrive">only necessary</P>
-                   <img src="images/icon7.png" alt="">
+                   <img src="images/icon7.png" alt="" class="img-responsive icon">
                </div>
            </div>
            <div class="row">
-               <div class="col-md-3 col-md-offset-3 mobile_content">
-                   <img src="images/icon4.png" alt="" class="img-responsive">
+               <div class="col-md-3 col-md-offset-3 col-xs-4 col-xs-offset-2 mobile_content">
+                   <img src="images/icon4.png" alt="" class="img-responsive icon">
                    <h3 class="feature_heading">SCREENSHOTS</h3>
                     <P class="f_descrive">only necessary</P>
-                   <img src="images/icon7.png" alt="">
+                   <img src="images/icon7.png" alt="" class="img-responsive icon">
                </div>
-               <div class="col-md-2 mobile_row">
-                   <img src="images/mobile2.png" alt="" class="img-responsive">
+               <div class="col-md-2 col-xs-4 mobile_row">
+                   <img src="images/mobile2.png" alt="" class="img-responsive ">
                </div>
            </div>
            <div class="row">
-               <div class="col-md-2 col-md-offset-3 mobile_row">
+               <div class="col-md-2 col-md-offset-3 col-xs-4 col-xs-offset-2 mobile_row">
                    <img src="images/mobile3.png" alt="" class="img-responsive">
                </div>
-               <div class="col-md-3 col-md-offset-1 mobile_content">
-                   <img src="images/icon4.png" alt="" class="img-responsive">
+               <div class="col-md-3 col-md-offset-1 col-xs-4  mobile_content">
+                   <img src="images/icon4.png" alt="" class="img-responsive icon">
                    <h3 class="feature_heading">SCREENSHOTS</h3>
                     <P class="f_descrive">only necessary</P>
-                   <img src="images/icon7.png" alt="">
+                   <img src="images/icon7.png" alt="" class="img-responsive icon">
                </div>
            </div>
        </div>
@@ -196,7 +203,7 @@
     <section id="people">
         <div class="container-fluid">
            <div class="row">
-              <div class="col-md-5 col-md-offset-4">
+              <div class="col-md-5 col-md-offset-4 col-sm-6 col-sm-offset-3">
                    <div class="screen_content text-center">
                        <h3 class="feature_heading">WHAT PEOPLE ARE SAYING</h3>
                     <P class="f_descrive">only necessary</P>
@@ -204,7 +211,7 @@
               </div>
            </div>
            <div class="row">
-               <div class="col-md-4 col-md-offset-2 people_say">
+               <div class="col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 people_say">
                    <div class="people_content">
                        <img src="images/comaleft.png" alt="" class="img-responsive comaleft">
                        <p class="people_comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam dolorem !</p>
@@ -212,7 +219,7 @@
                         <img src="images/comaright.png" alt="" class="img-responsive comaright">
                    </div>
                </div>
-               <div class="col-md-4 col-md-offset-1 people_say">
+               <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 people_say">
                   <div class="people_content">
                        <img src="images/comaleft.png" alt="" class="img-responsive comaleft">
                        <p class="people_comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam dolorem !</p>
@@ -222,7 +229,7 @@
                </div>
            </div>
            <div class="row">
-               <div class="col-md-4 col-md-offset-2 people_say">
+               <div class="col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 people_say">
                    <div class="people_content">
                        <img src="images/comaleft.png" alt="" class="img-responsive comaleft">
                        <p class="people_comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam dolorem !</p>
@@ -230,7 +237,7 @@
                         <img src="images/comaright.png" alt="" class="img-responsive comaright">
                    </div>
                </div>
-               <div class="col-md-4 col-md-offset-1 people_say">
+               <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 people_say">
                   <div class="people_content">
                        <img src="images/comaleft.png" alt="" class="img-responsive comaleft">
                        <p class="people_comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam dolorem !</p>
@@ -250,7 +257,7 @@
                    <h3 class="app_content">HOW DOWNLOAD THE APP?</h3>
                    <p class="app_descrive">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, architecto!</p>
                    <form action="">
-                       <button type="submit"><img src="images/app.png" alt="" class="img-responsive apple"></button>
+                       <button type="submit"><img src="images/a.png" alt="" class="img-responsive apple"></button>
                        <button type="submit"><img src="images/gp.png" alt="" class="img-responsive g_play"></button>
                    </form>
                </div> 
@@ -261,14 +268,14 @@
    <footer id="footer">
        <div class="container">
            <div class="row border">
-                <div class="col-md-2 col-md-offset-1">
+                <div class="col-md-2 col-md-offset-1 col-xs-4 col-sm-3">
                     <div class="color_logo">
                        <h4 >FUN <span>WEATHER</span></h4>
                     </div>
                 </div>
-                <div class="col-md-8 col-md-offset-1">
+                <div class="col-md-8 col-md-offset-1 col-xs-8 col-sm-9">
                     <div class="row">
-                       <div class="col-md-8">
+                       <div class="col-md-8 col-xs-8 col-sm-8">
                            <div class="menu">
                                <ul class="list-inline">
                                 <li><a href="#">HOME</a></li>
@@ -278,12 +285,12 @@
                               </ul>
                            </div>
                        </div>
-                       <div class="col-md-4">
-                           <div class="social_icon">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                       <div class="col-md-4 col-xs-3 col-sm-4 social_footer">
+                           <div class="social_icon list-inline">
+                                <ul class="nav navbar-nav navbar-right list-inline">
+                                    <li><a href="#"><i class="fa fa-facebook icon" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram social_icon" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter icon" aria-hidden="true"></i></a></li>
 
                                </ul>
                            </div>
@@ -294,7 +301,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-5 col-md-offset-6">
+                <div class="col-md-5 col-md-offset-6 col-sm-6 col-sm-offset-5">
                     <p class="copyright">&copy;2017 all right reseved. Weather App Theme by Gravpix</p>
                 </div>
             </div>
