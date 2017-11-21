@@ -1,9 +1,143 @@
 /*android extra small device*/
 @media(max-width:767px){
-  
+    #header{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    #header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 69px;
+}
+    #home{
+    margin-top:0px;;
+    
+}
+  .slider_mobile {
+    width: 89%;
+    height: 260px;
+}
+    .heading {
+    font-weight: bold;
+    margin-top: 32px;
+    color: white;
+    font-size: 25px;
+}
+    .descrive {
+    color: white;
+    margin-top: 15px;
+    font-size: 13px;
+}
+ .feature_heading {
+    font-weight: bold;
+    color: #9EB4FF;
+    margin-top: 29px;
+    font-size: 17px;
+}
+    .df_form {
+    margin-top: 30px;
+}
+    .f_descrive {
+    color: #CDCDCD;
+    font-size: 13px;
+}
+    .f_icon {
+    width: 8%;
+    margin: 0px 12px;
+    font-weight: bold;
+}
+  .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -53px;
+}
+    .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -30px;
+}
+    .widgets {
+    width: 33%;
+    margin: 0px;
+    transition: 2s;
+}
+    .widgets :hover{
+        transform: scale(1.3);
+    }
+  .slider_img {
+    margin-top: 0px;
+    width: 92px;
+}
+    .icon{
+        width: 50%;
+    }
+    .app_content {
+    margin-top: 48px;
+    color: white;
+    font-weight: bold;
+    }form{
+        margin-top: 10px;
+    }
+    #app,#people,#footer{
+      padding-left: 20px;  
+    }
+    
+    .app_descrive {
+    margin-top: 14px;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+}
+    .g_play {
+    width: 70%;
+    background-color: transparent;
+    border: none;
+    margin: 0px;
+}
+    .apple {
+    width: 70%;
+    background-color: transparent;
+    border: none;
+    margin: 1px;
+} 
+
+    
+    
+    
+    
 }
 /*tablet or small device*/
 @media(min-width:768px) and (max-width:991px){
+    .navbar-default .navbar-nav > li > a {
+    color: white;
+    padding: 6px 10px;
+}
+    .slider_content {
+    margin-top: 12px;
+}
+    .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: 11px;
+}
+    .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 85%;
+    height: auto;
+}
+    p {
+    margin: 0px -20px 10px;
+}
+    a {
+    color: #bfc7ce;
+    text-decoration: none;
+    padding: 0;
+    transition: 3s;
+    font-size: 12px;
+}
+    .social_icon{
+        
+    }
+    
+    .navbar-default .navbar-nav > li > a {
+    color: white;
+    padding: 9px 15px;
+}
+    
     
 }
 /*medium device or small laptop*/
@@ -12,5 +146,7 @@
 }
 /*large laptop or desktop*/
 @media(min-width:1200px){
-	
+	.slider_content {
+    margin-top: 80px;
+}
 }
