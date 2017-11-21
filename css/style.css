@@ -1,12 +1,14 @@
 #header{
+    /*position: fixed;
+    z-index: 1;*/
+    background-color: #648CFF;
+}
+#home{
     background: url(../images/main_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 600px;
     
-}
-.logo_menu{
-    padding-top: 10px;
 }
 .header_logo{}
 .logo{
@@ -29,14 +31,14 @@
 }
 .navbar-default .navbar-nav > li > a {
     color: white;
-    padding: 17px 25px;
+    padding: 10px;
 }
 .menu_nav ul li a {
     color: white;
-    padding: 20px;
+    padding: 10px;
 }
 .slider_content{
-    margin-top: 30px;
+    margin-top: 150px;
 }
 .slider_mobile{
     width: 75%;
@@ -194,6 +196,10 @@
     margin-top: 30px;
     min-height: 200px;
 }
+button {
+    background-color: transparent;
+    border: none;
+}
 .app_content{
     margin-top: 70px;
     color: white;
@@ -251,4 +257,11 @@ a:hover{
 .border{
     border-bottom: 2px solid gray;
     margin-bottom: 10px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    padding: 10px 22px;
+}
+.social_icon{
+    
 }
