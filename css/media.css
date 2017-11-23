@@ -123,7 +123,9 @@
     font-weight: bold;
 }
     
-    
+    .features_comment {
+    color: gray;
+}
     
     
 }
@@ -166,7 +168,9 @@
     color: white;
     padding: 9px 12px;
 }
-    
+    .features_comment {
+    color: gray;
+}
     
 }
 /*medium device or small laptop*/
@@ -174,6 +178,9 @@
 	.navbar-default .navbar-nav > li > a {
     color: white;
     padding: 10px 19px;
+}
+	.features_comment {
+    color: gray;
 }
 }
 /*large laptop or desktop*/
@@ -184,5 +191,8 @@
     .menu_nav ul li a {
     color: white;
     padding: 10px 25px;
+}
+	.features_comment {
+    color: gray;
 }
 }
