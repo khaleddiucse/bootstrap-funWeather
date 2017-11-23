@@ -1,9 +1,9 @@
 #header{
-    /*position: fixed;
-    z-index: 1;*/
-    background-color: #648CFF;
-    background-position: center center;
-}
+    position: fixed;
+	z-index: 1;
+	background-color: #648CFF;
+	background-position: center center;
+	width: 100%;
 #home{
     background: url(../images/main_bg.png);
     background-repeat: no-repeat;
