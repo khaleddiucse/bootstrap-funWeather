@@ -124,7 +124,7 @@
 }
     
     .features_comment {
-    color: gray;
+    color: gray !important;
 }
     
     
@@ -169,7 +169,7 @@
     padding: 9px 12px;
 }
     .features_comment !important{
-    color: gray;
+    color: gray !important;
 }
     
 }
@@ -180,7 +180,7 @@
     padding: 10px 19px;
 }
 	.features_comment {
-    color: gray;
+    color: gray !important;
 }
 }
 /*large laptop or desktop*/
@@ -193,6 +193,6 @@
     padding: 10px 25px;
 }
 	.features_comment {
-    color: gray;
+    color: gray !important;
 }
 }
